@@ -1,0 +1,18 @@
+camera_name: "hikrobot"
+exposure_ms: 2
+gain: 16
+vid_pid: 2bdf:0001
+
+xml_path: "assets/Katrin.xml"
+bin_path: "assets/Katrin.bin"
+device: "CPU"
+
+score_threshold: 0.9
+nms_threshold: 0.4
+
+com_port: "/dev/ttyACM0"
+baud_rate: 115200
+
+# 重投影误差: 0.0734px
+camera_matrix: [2356.3525680639673, 0, 712.79730945437075, 0, 2357.8001316954378, 556.32597083182532, 0, 0, 1]
+distort_coeffs: [-0.051228282056738794, 0.11368323919971665, -9.6177326040434001e-05, -0.00010615461256445927, 0]
